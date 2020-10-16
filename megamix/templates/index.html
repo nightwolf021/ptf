@@ -1,0 +1,359 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Avo - Free Bootstrap 4 Template by Colorlib</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href={% static "css/animate.css" %}>
+	
+	<link rel="stylesheet" href={% static "css/owl.carousel.min.css" %}>
+	<link rel="stylesheet" href={% static "css/owl.theme.default.min.css" %}>
+	<link rel="stylesheet" href={% static "css/magnific-popup.css" %}>
+	
+	<link rel="stylesheet" href={% static "css/flaticon.css" %}>
+	<link rel="stylesheet" href={% static "css/style.css" %}>
+</head>
+<body>
+	
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href={% url 'homepage' %}>Mega<span>Mix</span>Team</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a href={% url 'homepage' %} class="nav-link">Home</a></li>
+					<li class="nav-item"><a href={% url 'contactpage' %} class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- END nav -->
+
+	<section class="hero-wrap degree-right js-fullheight">
+		<div class="home-slider js-fullheight owl-carousel">
+			<div class="slider-item js-fullheight" style="background-image:url({% static 'images/bg_1.jpg' %});">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row no-gutters slider-text js-fullheight align-items-center">
+						<div class="col-md-12 ftco-animate">
+							<div class="absolute">
+								<h4 class="number" data-number="100">0</h4>
+								<p>More than a hundred successful projects</p>
+							</div>
+							<div class="text">
+								<h1 class="mb-4">We Create Modern &amp; Minimal Website</h1>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+								<p class="mb-0"><a href="#" class="btn btn-primary py-md-3 py-2 px-2 px-md-4">Start Project</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="slider-item js-fullheight" style="background-image:url({% static 'images/bg_2.jpg' %});">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row no-gutters slider-text js-fullheight align-items-center">
+						<div class="col-md-12 ftco-animate">
+							<div class="absolute">
+								<h4 class="number" data-number="21">0</h4>
+								<p>Years of Experienced</p>
+							</div>
+							<div class="text">
+								<h1 class="mb-4">We Create Modern &amp; Minimal Website</h1>
+								<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+								<p class="mb-0"><a href="" class="scroll_down_button btn btn-primary py-md-3 py-2 px-2 px-md-4">Explore Projects</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center no-gutters">
+				<div class="col-md-12 heading-section text-center ftco-animate mb-5">
+					<h2 class="mb-2">About us</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md d-flex align-items-stretch ftco-animate">
+					<div class="media block-6 w-100 services d-block text-center">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-vector"></span></div>
+						<div class="media-body py-md-4">
+							<h3>UI/UX Design</h3>
+						</div>
+					</div>      
+				</div>
+				<div class="col-md d-flex align-items-stretch ftco-animate">
+					<div class="media block-6 w-100 services d-block text-center">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-web-programming"></span></div>
+						<div class="media-body py-md-4">
+							<h3>Web Development</h3>
+						</div>
+					</div>      
+				</div>
+				<div class="col-md d-flex align-items-stretch ftco-animate">
+					<div class="media block-6 w-100 services d-block text-center">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-layer"></span></div>
+						<div class="media-body py-md-4">
+							<h3>Product Design</h3>
+						</div>
+					</div>      
+				</div>
+				<div class="col-md d-flex align-items-stretch ftco-animate">
+					<div class="media block-6 w-100 services d-block text-center">
+						<div class="icon d-flex justify-content-center align-items-center"><span class="flaticon-coding"></span></div>
+						<div class="media-body py-md-4">
+							<h3>Mobile Apps</h3>
+						</div>
+					</div>      
+				</div>
+				<div class="col-md d-flex align-items-stretch ftco-animate">
+					<div class="media block-6 w-100 services d-block text-center">
+						<div class="icon d-flex justify-content-center align-items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                 width="80" height="80"
+                                 viewBox="0 0 172 172"
+                                 style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#e7bc00"><path d="M24.55703,36.55c-2.83807,0 -5.20703,2.32845 -5.20703,5.17344v24.92656h-6.45c-1.18736,0.00012 -2.14988,0.96264 -2.15,2.15v21.5c0.00012,1.18736 0.96264,2.14988 2.15,2.15h6.45v10.75h-4.3c-1.18736,0.00012 -2.14988,0.96264 -2.15,2.15v19.35c0.00012,1.18736 0.96264,2.14988 2.15,2.15h4.3v5.57656c0,2.84499 2.36896,5.17344 5.20703,5.17344h128.09297c1.18736,-0.00012 2.14988,-0.96264 2.15,-2.15v-5.55977l5.82012,-5.82012c0.4032,-0.40315 0.62977,-0.94994 0.62988,-1.52012v-53.61562c-0.0001,-0.5743 -0.22993,-1.1247 -0.63828,-1.52852l-5.47578,-5.41699v-17.24619c-0.00095,-0.58944 -0.24385,-1.15265 -0.67187,-1.55791l-6.37022,-6.04268c-0.39878,-0.37925 -0.9278,-0.59115 -1.47813,-0.59209zM24.55703,40.85h121.20205l5.07686,4.8165v17.2168c-0.00103,0.57576 0.2289,1.12787 0.63828,1.53272l5.47578,5.41279v51.83096l-5.82012,5.82012c-0.4032,0.40315 -0.62977,0.94994 -0.62988,1.52012v4.3h-125.94297c-0.53743,0 -0.90703,-0.38163 -0.90703,-0.87344v-5.57656h15.05c1.18736,-0.00012 2.14988,-0.96264 2.15,-2.15v-19.35c-0.00012,-1.18736 -0.96264,-2.14988 -2.15,-2.15h-15.05v-10.75h15.05c1.18736,-0.00012 2.14988,-0.96264 2.15,-2.15v-21.5c-0.00012,-1.18736 -0.96264,-2.14988 -2.15,-2.15h-15.05v-24.92656c0,-0.49181 0.3696,-0.87344 0.90703,-0.87344zM33.325,47.3c-1.7802,0 -3.225,1.4448 -3.225,3.225v6.45c0,1.7802 1.4448,3.225 3.225,3.225h6.45c1.7802,0 3.225,-1.4448 3.225,-3.225v-6.45c0,-1.7802 -1.4448,-3.225 -3.225,-3.225zM52.675,47.3c-1.78112,0 -3.225,1.44388 -3.225,3.225c0,1.78112 1.44388,3.225 3.225,3.225c1.78112,0 3.225,-1.44388 3.225,-3.225c0,-1.78112 -1.44388,-3.225 -3.225,-3.225zM64.5,49.45c-0.77537,-0.01097 -1.49657,0.39641 -1.88746,1.06613c-0.39088,0.66972 -0.39088,1.49803 0,2.16775c0.39088,0.66972 1.11209,1.07709 1.88746,1.06613c0.77537,0.01097 1.49657,-0.39641 1.88746,-1.06613c0.39088,-0.66972 0.39088,-1.49803 0,-2.16775c-0.39088,-0.66972 -1.11209,-1.07709 -1.88746,-1.06613zM72.23916,49.45l-1.72168,0.86504l-0.34014,1.89385l1.31855,1.40674l0.74326,0.13438l1.72168,-0.86504l0.34014,-1.89385l-1.31436,-1.40674zM79.97832,49.45l-1.72168,0.86504l-0.34014,1.89385l1.31856,1.40674l0.74326,0.13438l1.72588,-0.86504l0.33594,-1.89385l-1.31436,-1.40674zM87.72168,49.45l-1.72588,0.86504l-0.33594,1.89385l1.31436,1.40674l0.74746,0.13438l1.72168,-0.86504l0.34014,-1.89385l-1.31856,-1.40674zM95.46084,49.45l-1.72168,0.86504l-0.34014,1.89385l1.31436,1.40674l0.74746,0.13438l1.72168,-0.86504l0.34014,-1.89385l-1.31855,-1.40674zM103.2,49.45c-0.77537,-0.01097 -1.49657,0.39641 -1.88746,1.06613c-0.39088,0.66972 -0.39088,1.49803 0,2.16775c0.39088,0.66972 1.11209,1.07709 1.88746,1.06613zM116.1,49.45v4.3c0.77537,0.01097 1.49657,-0.39641 1.88746,-1.06613c0.39088,-0.66972 0.39088,-1.49803 0,-2.16775c-0.39088,-0.66972 -1.11209,-1.07709 -1.88746,-1.06613zM124.7,49.45l-1.72168,0.86504l-0.34014,1.89385l1.31436,1.40674l0.74746,0.13438l1.72168,-0.86504l0.34014,-1.89385l-1.31436,-1.40674zM133.3,49.45l-1.72168,0.86504l-0.34014,1.89385l1.31436,1.40674l0.74746,0.13438l1.72168,-0.86504l0.34014,-1.89385l-1.31436,-1.40674zM141.9,49.45c-0.77537,-0.01097 -1.49657,0.39641 -1.88746,1.06613c-0.39088,0.66972 -0.39088,1.49803 0,2.16775c0.39088,0.66972 1.11209,1.07709 1.88746,1.06613zM93.61738,60.2c-5.35524,0 -9.76738,4.34376 -9.76738,9.675c0,5.33124 4.41214,9.675 9.76738,9.675c5.96921,0 8.89867,-3.23506 10.65762,-5.86211c1.75905,2.62716 4.68859,5.86211 10.65762,5.86211c5.35524,0 9.76738,-4.34376 9.76738,-9.675c0,-5.33124 -4.41214,-9.675 -9.76738,-9.675c-5.96921,0 -8.89867,3.23506 -10.65762,5.86211c-1.75895,-2.62705 -4.68841,-5.86211 -10.65762,-5.86211zM93.61738,64.5c5.3876,0 7.55874,4.15499 8.13809,5.375c-0.57934,1.22001 -2.75049,5.375 -8.13809,5.375c-3.05986,0 -5.46738,-2.39434 -5.46738,-5.375c0,-2.98066 2.40752,-5.375 5.46738,-5.375zM114.93262,64.5c3.05986,0 5.46738,2.39434 5.46738,5.375c0,2.98066 -2.40752,5.375 -5.46738,5.375c-5.38982,0 -7.55925,-4.15508 -8.13809,-5.375c0.57934,-1.22001 2.75049,-5.375 8.13809,-5.375zM15.05,70.95h21.5v17.2h-21.5zM147.275,73.1c-1.7802,0 -3.225,1.4448 -3.225,3.225c0,1.7802 1.4448,3.225 3.225,3.225c1.7802,0 3.225,-1.4448 3.225,-3.225c0,-1.7802 -1.4448,-3.225 -3.225,-3.225zM51.6,75.25c-1.18736,0.00012 -2.14988,0.96264 -2.15,2.15v12.9c0.00012,1.18736 0.96264,2.14988 2.15,2.15h12.9c1.18736,-0.00012 2.14988,-0.96264 2.15,-2.15v-12.9c-0.00012,-1.18736 -0.96264,-2.14988 -2.15,-2.15zM53.75,79.55h8.6v8.6h-8.6zM79.55,88.15c-1.18736,0.00012 -2.14988,0.96264 -2.15,2.15v15.05c0.00012,1.18736 0.96264,2.14988 2.15,2.15h66.65c1.18736,-0.00012 2.14988,-0.96264 2.15,-2.15v-15.05c-0.00012,-1.18736 -0.96264,-2.14988 -2.15,-2.15zM81.7,92.45h62.35v10.75h-62.35zM51.6,103.2c-2.37482,0 -4.3,1.92518 -4.3,4.3c0,2.37482 1.92518,4.3 4.3,4.3c2.37482,0 4.3,-1.92518 4.3,-4.3c0,-2.37482 -1.92518,-4.3 -4.3,-4.3zM66.65,103.2c-2.37482,0 -4.3,1.92518 -4.3,4.3c0,2.37482 1.92518,4.3 4.3,4.3c2.37482,0 4.3,-1.92518 4.3,-4.3c0,-2.37482 -1.92518,-4.3 -4.3,-4.3zM17.2,107.5h19.35v15.05h-19.35zM147.275,113.95c-1.7802,0 -3.225,1.4448 -3.225,3.225c0,1.7802 1.4448,3.225 3.225,3.225c1.7802,0 3.225,-1.4448 3.225,-3.225c0,-1.7802 -1.4448,-3.225 -3.225,-3.225zM52.675,120.4c-1.78112,0 -3.225,1.44388 -3.225,3.225c0,1.78112 1.44388,3.225 3.225,3.225c1.78112,0 3.225,-1.44388 3.225,-3.225c0,-1.78112 -1.44388,-3.225 -3.225,-3.225zM73.1,122.55v4.3c0.77537,0.01097 1.49657,-0.39641 1.88746,-1.06613c0.39088,-0.66972 0.39088,-1.49803 0,-2.16775c-0.39088,-0.66972 -1.11209,-1.07709 -1.88746,-1.06613zM81.1625,122.55l-1.72168,0.86504l-0.34014,1.89385l1.31436,1.40674l0.74746,0.13438l1.72168,-0.86504l0.34014,-1.89385l-1.31436,-1.40674zM89.225,122.55l-1.72168,0.86504l-0.34014,1.89385l1.31436,1.40674l0.74746,0.13438l1.72168,-0.86504l0.34014,-1.89385l-1.31436,-1.40674zM97.2875,122.55l-1.72168,0.86504l-0.34014,1.89385l1.31436,1.40674l0.74746,0.13438l1.72168,-0.86504l0.34014,-1.89385l-1.31436,-1.40674zM105.35,122.55c-0.77537,-0.01097 -1.49657,0.39641 -1.88746,1.06613c-0.39088,0.66972 -0.39088,1.49803 0,2.16775c0.39088,0.66972 1.11209,1.07709 1.88746,1.06613zM118.25,122.55v4.3c0.77537,0.01097 1.49657,-0.39641 1.88746,-1.06613c0.39088,-0.66972 0.39088,-1.49803 0,-2.16775c-0.39088,-0.66972 -1.11209,-1.07709 -1.88746,-1.06613zM126.85,122.55l-1.72168,0.86504l-0.34014,1.89385l1.31436,1.40674l0.74746,0.13438l1.72168,-0.86504l0.34014,-1.89385l-1.31436,-1.40674zM135.45,122.55c-0.77537,-0.01097 -1.49657,0.39641 -1.88746,1.06613c-0.39088,0.66972 -0.39088,1.49803 0,2.16775c0.39088,0.66972 1.11209,1.07709 1.88746,1.06613c0.77537,0.01097 1.49657,-0.39641 1.88746,-1.06613c0.39088,-0.66972 0.39088,-1.49803 0,-2.16775c-0.39088,-0.66972 -1.11209,-1.07709 -1.88746,-1.06613z"></path></g></g></svg>
+                        </div> <!--<span class="flaticon-zoom"></span>-->
+						<div class="media-body py-md-4">
+							<h3>Arduino</h3>
+						</div>
+					</div>      
+				</div>
+			</div>
+			<div class="row wrap-about my-5">
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-6 order-md-last ftco-animate d-flex">
+							<div class="img w-100" style="background-image: url({% static 'images/about.jpg' %});"></div>
+						</div>
+						<div class="col-md-6 ftco-animate">
+							<div class="text text-md-right">
+								<h3>Welcome to MegaMixTeam's Porfolio</h3>
+								<p>we are here for introduce ourself to you and show you some of our done projects<br><br><br></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 ftco-animate">
+					<div class="text">
+                        <p>some more cheatchat</p>
+						<p><a href="#" class="btn btn-primary">View all projects</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col-md-4">
+					<div class="services-2 d-flex ftco-animate">
+						<span>01</span>
+						<div class="text">
+							<h3>Satisfaction</h3>
+							<p>most important thing for us is your Satisfaction.our past clients can testify it ;)</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="services-2 d-flex ftco-animate">
+						<span>02</span>
+						<div class="text">
+							<h3>Speed</h3>
+							<p>we do our best to make it fast and clean so you can use your project.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="services-2 d-flex ftco-animate">
+						<span>03</span>
+						<div class="text">
+							<h3>Support</h3>
+							<p>all of our works have 1 Month full support for solving every probable problems!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section ftco-portfolio bg-light">
+		<div class="row justify-content-center no-gutters second-part">
+			<div class="col-md-12 heading-section text-center ftco-animate mb-5">
+				<h2 class="mb-2">Our Works</h2>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row no-gutters">
+                {% for project in works %}
+                {% if forloop.counter|divisibleby:2 %}
+                    <div class="col-md-12 portfolio-wrap mt-0">
+					<div class="row no-gutters align-items-center">
+						<div class="col-md-5 img" style="background-image: url({{ project.image.url }});"></div>
+						<div class="col-md-7">
+							<div class="text pt-5 pl-0 pl-lg-5 pl-md-4 ftco-animate">
+								<div class="px-4 px-lg-4">
+									<div class="desc">
+										<div class="top">
+											<span class="subheading">{{ project.language }}</span>
+											<h2 class="mb-2">{{ project.title }}</h2>
+										</div>
+										<div class="absolute">
+											<p>{{ project.describe }}</p>
+											<div class="icon d-flex align-items-center mb-4">
+                                                <div class="img" style="background-image: url({{ project.programmers.image_ulr.url }});"></div>
+												<div class="position pl-3">
+													<h4 class="mb-0">{{ project.programmer.name }}</h4>
+												</div>
+											</div>
+{#											<p><a href="#" class="custom-btn">View Portfolio</a></p>#}
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                {% else %}
+                    <div class="col-md-12 portfolio-wrap">
+					<div class="row no-gutters align-items-center">
+						<div class="col-md-5 order-md-last img" style="background-image: url({{ project.image.url }});"></div>
+						<div class="col-md-7">
+							<div class="text pt-5 pr-md-5 ftco-animate">
+								<div class="px-4 px-lg-4">
+									<div class="desc text-md-right">
+										<div class="top">
+											<span class="subheading">{{ project.language }}</span>
+											<h2 class="mb-2">{{ project.title }}</h2>
+										</div>
+										<div class="absolute">
+                                            <p>{{ project.describe }}</p>
+											<div class="d-flex w-100">
+												<div class="icon d-flex align-items-center ml-md-auto mb-4">
+                                                <div class="img" style="background-image: url({{ project.programmers.image_ulr.url }});"></div>
+                                                    <div class="position pl-3 text-left">
+														<h4 class="mb-0">{{ project.programmers.name }}</h4>
+													</div>
+												</div>
+											</div>
+{#											<p><a href="#" class="custom-btn">View Portfolio</a></p>#}
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                {% endif %}
+                {% endfor %}
+			</div>
+		</div>
+		<div class="degree-left"></div>
+	</section>
+
+	<section class="ftco-section testimony-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5">
+				<div class="col-md-8 text-center heading-section ftco-animate">
+					<h2 class="mb-3">Team Members</h2>
+				</div>
+			</div>
+			<div class="row ftco-animate mb-4">
+				<div class="col-md-12">
+					<div class="carousel-testimony owl-carousel">
+                        {% for programmer in programmers %}
+						<div class="item">
+							<div class="testimony-wrap py-4">
+								<div class="text">
+									<span class="fa fa-quote-left"></span>
+									<p class="mb-4">{{ programmer.discription }}</p>
+									<div class="d-flex align-items-center">
+										<div class="user-img" style="background-image: url({{ programmer.image_ulr.url }})">
+                                        </div>
+                                        <div class="pl-3">
+											<p class="name">{{ programmer.name }}</p>
+{#											<span class="position">Marketing Manager</span>#}
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+                        {% endfor %}
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">MegaMixTeam</h2>
+						<p>you can contact us in social media</p>
+						<ul class="ftco-footer-social list-unstyled mt-5">
+							<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+							<li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+							<li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Have a Questions?</h2>
+						<div class="block-23 mb-3">
+							<ul>
+{#								<li><span class="icon fa fa-map"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>#}
+								<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+								<li><a href="#"><span class="icon fa fa-envelope pr-4"></span><span class="text">megamixteam@gmail.com</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		
+
+		<!-- loader -->
+		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+		<script src={% static "js/jquery.min.js" %}></script>
+		<script src={% static "js/jquery-migrate-3.0.1.min.js" %}></script>
+		<script src={% static "js/popper.min.js" %}></script>
+		<script src={% static "js/bootstrap.min.js" %}></script>
+		<script src={% static "js/jquery.easing.1.3.js" %}></script>
+		<script src={% static "js/jquery.waypoints.min.js" %}></script>
+		<script src={% static "js/jquery.stellar.min.js" %}></script>
+		<script src={% static "js/owl.carousel.min.js" %}></script>
+		<script src={% static "js/jquery.magnific-popup.min.js" %}></script>
+		<script src={% static "js/jquery.animateNumber.min.js" %}></script>
+		<script src={% static "js/scrollax.min.js" %}></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+		<script src={% static "js/google-map.js" %}></script>
+		<script src={% static "js/main.js" %}></script>
+		
+	</body>
+	</html>
