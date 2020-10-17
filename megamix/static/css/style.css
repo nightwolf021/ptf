@@ -9081,9 +9081,9 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #fbc403 !important;
-    border: 1px solid #ffdd03 !important;
-    color: #fff !important; }
+    background: #efbf00 !important;
+    border: 1px solid #fbc403 !important;
+    color: #7a7a7a !important; }
     .btn.btn-primary:hover {
       border: 1px solid #d1002c;
       background: transparent;
@@ -9525,7 +9525,7 @@ textarea.form-control {
 .testimony-wrap {
   display: block;
   position: relative;
-  background: #fbc403;
+  background: #292929;
   padding: 0 20px;
   border-radius: 5px; }
   .testimony-wrap .user-img {
@@ -9541,12 +9541,12 @@ textarea.form-control {
     font-size: 30px;
     position: absolute;
     top: -15px;
-    left: 20px; }
-  .testimony-wrap .name {
+    left: 20pxtestimony-wra; }
+  .p .name {
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 0;
-    color: #000000;
+    color: #fbc403;
     letter-spacing: 2px; }
   .testimony-wrap .position {
     font-size: 16px;
